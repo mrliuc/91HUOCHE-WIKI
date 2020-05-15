@@ -1,0 +1,72 @@
+{
+    "title": "91货车",
+    "author": "mrliuc@qq.com",
+    "description": "91货车使用文档",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "links": {
+        "sidebar": {
+            "91货车": "https://91huoche.cn"
+        }
+    },
+    "plugins": [
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "anchors",
+        "github",
+        "github-buttons",
+        "sharing-plus",
+        "anchor-navigation-ex",
+        "favicon"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/mrliuc/91HUOCHE-WIKI"
+        },
+        "github-buttons": {
+            "buttons": [{
+                "user": "mrliuc",
+                "repo": "91HUOCHE-WIKI",
+                "type": "star",
+                "size": "small",
+                "count": true
+                }
+            ]
+        },
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": [
+                "qq", "qzone"
+            ]
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        },
+        "favicon":{
+            "shortcut": "./assets/logo.ico",
+            "bookmark": "./assets/logo.ico",
+            "appleTouch": "./assets/logo.ico",
+            "appleTouchMore": {
+                "120x120": "./assets/logo.ico",
+                "180x180": "./assets/logo.ico"
+            }
+        }
+    }
+}
